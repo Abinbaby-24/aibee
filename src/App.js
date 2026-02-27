@@ -20,7 +20,7 @@ function App() {
     setMessages((prev) => [...prev, { role: "user", text: userMessage }]);
 
     try {
-      const res = await fetch("http://localhost:5000/chat", {
+      const res = await fetch("https://aibee.onrender.com", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: userMessage }),
