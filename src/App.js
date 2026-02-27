@@ -50,7 +50,7 @@ function App() {
           <div className="header-left">
             <img src={abyImg} alt="avatar" className="avatar" />
             <div>
-              <p className="ai-name">AI Bee</p>
+              <p className="ai-name">ai.by</p>
               <p className="ai-status"><span className="dot" />Enthum chothikam</p>
             </div>
           </div>
