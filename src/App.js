@@ -20,7 +20,7 @@ function App() {
     setMessages((prev) => [...prev, { role: "user", text: userMessage }]);
 
     try {
-      const res = await fetch("https://aibee.onrender.com", {
+      const res = await fetch("https://aibee-backend.onrender.com", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: userMessage }),
